@@ -7,12 +7,12 @@
   DTS:CreatorName="VSB\MOY001"
   DTS:DTSID="{6A5B8C1C-27E4-4D61-8FAA-5B66D5825E1C}"
   DTS:ExecutableType="Microsoft.Package"
-  DTS:LastModifiedProductVersion="16.0.5685.2"
+  DTS:LastModifiedProductVersion="17.0.1010.2"
   DTS:LocaleID="1033"
   DTS:ObjectName="DF_App2DW_Activity"
   DTS:PackageType="5"
-  DTS:VersionBuild="11"
-  DTS:VersionGUID="{4BEC00CF-B28A-4CA5-99FB-A1F23103A85C}">
+  DTS:VersionBuild="9"
+  DTS:VersionGUID="{D919C470-DB9C-46AA-9571-AD0D42F59809}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:PackageParameters>
@@ -65,9 +65,9 @@
   <DTS:Variables>
     <DTS:Variable
       DTS:CreationName=""
-      DTS:DTSID="{88B6AC71-9E84-4DED-B97D-0AE98C010BB7}"
+      DTS:DTSID="{5DA33E86-177E-4694-A92B-5C216FA2E4BC}"
       DTS:EvaluateAsExpression="True"
-      DTS:Expression="@[$Package::DST_SCHEMA] + &quot;.&quot;+ @[$Package::DST_TABLE]"
+      DTS:Expression="@[$Package::DST_SCHEMA] + &quot;.&quot; +  @[$Package::DST_TABLE]"
       DTS:IncludeInDebugDump="2345"
       DTS:Namespace="User"
       DTS:ObjectName="DEST_TABLE_FN">
@@ -76,7 +76,7 @@
     </DTS:Variable>
     <DTS:Variable
       DTS:CreationName=""
-      DTS:DTSID="{6209FCD0-933B-4D6E-A3BE-893620CA852F}"
+      DTS:DTSID="{639326F6-C0E3-4045-B9C9-9EFC25C53A89}"
       DTS:IncludeInDebugDump="6789"
       DTS:Namespace="User"
       DTS:ObjectName="RC_SRC_SELECT">
@@ -93,6 +93,17 @@
       DTS:ObjectName="SRC_SELECT">
       <DTS:VariableValue
         DTS:DataType="8">SELECT[Id]       ,[StravaId]       ,[DateTimeStart]       ,[ElapsedTime]       ,[Distance]       ,[Type]       ,[LoadDate]       ,[YbaracupWebUserId]       ,[CreatedDate]       ,[UpdatedDate]       ,[DistanceDown]       ,[DistanceUp]       ,[ElevationGain] FROM StravaActivity WHERE Id &gt; 17594182000</DTS:VariableValue>
+    </DTS:Variable>
+    <DTS:Variable
+      DTS:CreationName=""
+      DTS:DTSID="{60FFE65B-DA78-4479-9CAA-F38CF31C0F81}"
+      DTS:EvaluateAsExpression="True"
+      DTS:Expression="@[$Package::SRC_TABLE_NAME]"
+      DTS:IncludeInDebugDump="2345"
+      DTS:Namespace="User"
+      DTS:ObjectName="SRC_TABLE_FULLNAME">
+      <DTS:VariableValue
+        DTS:DataType="8">StravaActivity</DTS:VariableValue>
     </DTS:Variable>
     <DTS:Variable
       DTS:CreationName=""
@@ -808,13 +819,13 @@
       <GraphLayout
         Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
         <NodeLayout
-          Size="178.666666666667,42.6666666666667"
-          Id="Package\SQL_TRUNC_DEST"
-          TopLeft="113.749994914979,40.3684206093943" />
-        <NodeLayout
-          Size="154.666666666667,42.6666666666667"
+          Size="154.4,42.4"
           Id="Package\DF_AppToODS"
           TopLeft="121.249994579703,116.999998715363" />
+        <NodeLayout
+          Size="178.4,42.4"
+          Id="Package\SQL_TRUNC_DEST"
+          TopLeft="113.749994914979,40.3684206093943" />
         <EdgeLayout
           Id="Package.PrecedenceConstraints[Constraint]"
           TopLeft="200.833328080674,83.0350872760609">

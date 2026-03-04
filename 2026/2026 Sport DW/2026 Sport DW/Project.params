@@ -1,10 +1,10 @@
 ﻿<?xml version="1.0"?>
 <SSIS:Parameters xmlns:SSIS="www.microsoft.com/SqlServer/SSIS">
   <SSIS:Parameter
-    SSIS:Name="SportApp_Password">
+    SSIS:Name="Password_SportApp">
     <SSIS:Properties>
       <SSIS:Property
-        SSIS:Name="ID">{e0a84648-205a-41fa-9fa7-7313b7443246}</SSIS:Property>
+        SSIS:Name="ID">{69ed5334-862f-4d5a-be66-1141e7e77e6a}</SSIS:Property>
       <SSIS:Property
         SSIS:Name="CreationName"></SSIS:Property>
       <SSIS:Property
@@ -17,7 +17,7 @@
         SSIS:Name="Sensitive">1</SSIS:Property>
       <SSIS:Property
         SSIS:Name="Value"
-        SSIS:Sensitive="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAPJXAgys+9ES7x1zCZQR94QAAAAACAAAAAAAQZgAAAAEAACAAAADt+cByaOayUDWUJmqXrJegBUtT5UR3pBWanrnPpv/qMAAAAAAOgAAAAAIAACAAAAAasdlFh4xIDg8RkO2+bUJzbk4RSetwUR+M6boJhFnBoIAAAADbIfPVRNuRGrVMCOiNv3u9ALuvQdBFr7JUaoFBjE0k9po3wE9UcfXjuWcAx1RYWB27K9aiKGdd5ndhMKY2lk+oWItl/29iHihSwZh9QsBlDN9dD2vElrpnf3Tl4xCYoyON/MlY3DVjbTGrh3ZL/VgckNOWbFUaQ4ZQR1WI+iPSeUAAAAC1qTkzKXJ+3bmRBnGBV1oWGi/Xsp5FoFLYQGbwhL50WMyWtf7V5O5bDMkEVYDeIaOw8jEaQt6o/YuaP9IpJ1yx</SSIS:Property>
+        SSIS:Sensitive="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAmuEBfXEbYkuSHCS6p4SFjQAAAAACAAAAAAAQZgAAAAEAACAAAADe/WRRixVUeSksEHSeZ85QJ99ByJtFhcIoKGgH5sm14AAAAAAOgAAAAAIAACAAAABD8qwhITyNDIKdfs1TP7ZIpJVF1qq3Ui97iCmcqc9aG4AAAADdIAHl6EZGftPKixXIvylKNKpCaRYEHVyg7EaFZuOqesA+hcMfFmvfR11FLdptF10Y1qg8OEQq7HRMfXmHYeAOWWErkGHUXfasIfg25nA2jDITVDnR7QA5/bTLszxytlUGzGfYNOUkVdUe4lcWF22QENHrAYktdGVTMHgtVOS410AAAABbsscWFqh0MnEPBbnkBAmpot6iDpMcOsvYzBtKs0zu4ZB676jKt7LpG3Zi9M6w87Y2NId4rvvqyzgFbfoKukcz</SSIS:Property>
       <SSIS:Property
         SSIS:Name="DataType">18</SSIS:Property>
     </SSIS:Properties>
@@ -26,7 +26,7 @@
     SSIS:Name="DW_UserName">
     <SSIS:Properties>
       <SSIS:Property
-        SSIS:Name="ID">{4238411e-8489-4e6d-9b2a-b8d659255f23}</SSIS:Property>
+        SSIS:Name="ID">{02f983d6-f692-4003-b5a9-f7ec59c36d9e}</SSIS:Property>
       <SSIS:Property
         SSIS:Name="CreationName"></SSIS:Property>
       <SSIS:Property
@@ -34,11 +34,11 @@
       <SSIS:Property
         SSIS:Name="IncludeInDebugDump">0</SSIS:Property>
       <SSIS:Property
-        SSIS:Name="Required">0</SSIS:Property>
+        SSIS:Name="Required">1</SSIS:Property>
       <SSIS:Property
         SSIS:Name="Sensitive">0</SSIS:Property>
       <SSIS:Property
-        SSIS:Name="Value">MOY001</SSIS:Property>
+        SSIS:Name="Value">BER0269</SSIS:Property>
       <SSIS:Property
         SSIS:Name="DataType">18</SSIS:Property>
     </SSIS:Properties>
@@ -47,7 +47,7 @@
     SSIS:Name="DW_Password">
     <SSIS:Properties>
       <SSIS:Property
-        SSIS:Name="ID">{7c223df4-2e7f-46ab-9b2c-702176649621}</SSIS:Property>
+        SSIS:Name="ID">{cf2eb374-e640-44cc-9cf3-6618db0b7357}</SSIS:Property>
       <SSIS:Property
         SSIS:Name="CreationName"></SSIS:Property>
       <SSIS:Property
@@ -60,7 +60,7 @@
         SSIS:Name="Sensitive">1</SSIS:Property>
       <SSIS:Property
         SSIS:Name="Value"
-        SSIS:Sensitive="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAPJXAgys+9ES7x1zCZQR94QAAAAACAAAAAAAQZgAAAAEAACAAAACtrhPps6vitx3+v+hSaLC+v5jz9Wy/vX3H/x5lH/GnugAAAAAOgAAAAAIAACAAAAAMZO3FVKeAyi+aV2LMD7zWEgEArWWeuVRH2eM07lubiIAAAACfXiKhCMLAOIEli1O/E+b+A7mk7hR8kKk7QU9QusfWuJbLfbgvWDQ5JJtB1wjav+9jOXA3jukOcmfm5BJ7QvOxO/NjYshmoWAssPlflyJxOm7g9Tpm54W0LD0MUhz/9hdcpLUVYNZ5CQ5K/kD/BaFO7YbPQd1BntlUVFjn+36zdEAAAACihfY/LvNeAKggOINyturd8vBm0nXfSaLEYrk63zTTB+inhNxDi1IRZJ9PGxeoZTRSgFnvSCBWMEwaYgC9kK3t</SSIS:Property>
+        SSIS:Sensitive="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAmuEBfXEbYkuSHCS6p4SFjQAAAAACAAAAAAAQZgAAAAEAACAAAABXZyiczniaGxYNJfL8+fQytGc82RZQI5FtfunSfDK7QAAAAAAOgAAAAAIAACAAAAAhvbaTL9JQzn4hRiZ7DvH/T3NNbCDMIsMECWGo4XQau5AAAABZlcKj8AX3F01AtuZRNAIvQbAu7jRMV1P9p3RNrxlPdLr3fbgfcmww5mGDYgm8bNqQpSDm2qj/U5y++Uj62+MAdSHYEczudi1bsS6H6Zx57uYBion5UCRnIocg0zFUhMRH0GNEzjq8Vrxl9DABkC/GdZJKQbXoSm2hxePCCiU+lZ5vXpURjnbc9EHdNKBRtXFAAAAALoAYBuxCfrMorvbOuRwqjZ23I9v2cOEwy4wgWHbmdKgyt5QCUQ96SouYisLu21JU0FSuegRxZrIvDN7mR16hSg==</SSIS:Property>
       <SSIS:Property
         SSIS:Name="DataType">18</SSIS:Property>
     </SSIS:Properties>
